@@ -1,0 +1,53 @@
+section#games-section {
+    display: flex;
+    gap: 1rem;
+
+    overflow-x: auto;
+}
+
+section#games-section > * {
+    flex-basis: 15rem;
+}
+
+.game-card {
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+
+    min-width: 9rem;
+}
+
+.game-card header {
+    font-weight: bold;
+
+    font-size: 1.3rem;
+}
+
+.game-card header,
+.game-card main {
+    padding: 0.3rem;
+}
+
+div.game-card footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-card footer *:nth-child(4) {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+section#games-section button#add-game {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 0.5rem;
+    border: 1px dashed rgb(140, 140, 170);
+    min-width: 9rem;
+}
+
+section#games-section button#add-game:hover {
+}

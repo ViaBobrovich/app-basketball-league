@@ -1,0 +1,10 @@
+section.players-stats table {
+    width: 100%;
+}
+
+section.players-stats table td,
+section.players-stats table th {
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    min-width: 4rem;
+}

@@ -1,0 +1,31 @@
+export const ACTIONS = [
+    "shot made",
+    "shot missed",
+    "free throw made",
+    "free throw missed",
+    "assist",
+    "rebound offensive",
+    "rebound defensive",
+    "foul defensive",
+    "foul offensive",
+    "foul technical",
+    "steal",
+    "block",
+    "turnover",
+];
+
+export const ACTIONSVOCABULARY = {
+    "shot made": "✅ бросок точный",
+    "shot missed": "❌ бросок промах",
+    "free throw made": "✅ штрафной точный",
+    "free throw missed": "❌ штрафной промах",
+    assist: "передача",
+    "rebound offensive": "подбор в атаке",
+    "rebound defensive": "подбор в защите",
+    "foul defensive": "фол в защите",
+    "foul offensive": "фол в атаке",
+    "foul technical": "фол технический",
+    steal: "перехват",
+    block: "блок",
+    turnover: "потеря",
+};
