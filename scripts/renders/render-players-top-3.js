@@ -75,7 +75,7 @@ function top3Points(section, playersList, gamesList) {
     const td1 = document.createElement("td");
     td1.textContent = `${myPlayer.lastName}`;
     const td2 = document.createElement("td");
-    td2.textContent = `${Math.ceil(playerIdPointsGamesList[i][1])}`;
+    td2.textContent = `${playerIdPointsGamesList[i][1]}`;
 
     tr.append(td1, td2);
     topPointsTable.append(tr);
