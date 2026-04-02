@@ -2,7 +2,7 @@ export const playersList = [
     {
         id: "player-orange-1",
         firstName: "One",
-        lastName: "Orange",
+        lastName: "Orangevich",
         height: "187",
         weight: "82",
         games: [],
@@ -13,7 +13,7 @@ export const playersList = [
     {
         id: "player-orange-2",
         firstName: "Two",
-        lastName: "Orange",
+        lastName: "Orangevsky",
         height: "187",
         weight: "82",
         games: [],
@@ -24,7 +24,7 @@ export const playersList = [
     {
         id: "player-blue-1",
         firstName: "One",
-        lastName: "Blue",
+        lastName: "Bluevich",
         height: "187",
         weight: "82",
         games: [],
@@ -35,7 +35,7 @@ export const playersList = [
     {
         id: "player-blue-2",
         firstName: "Two",
-        lastName: "Blue",
+        lastName: "Bluevsky",
         height: "187",
         weight: "82",
         games: [],
@@ -46,7 +46,7 @@ export const playersList = [
     {
         id: "player-green-1",
         firstName: "One",
-        lastName: "Green",
+        lastName: "Greenvich",
         height: "187",
         weight: "82",
         games: [],
@@ -57,7 +57,7 @@ export const playersList = [
     {
         id: "player-green-2",
         firstName: "Two",
-        lastName: "Green",
+        lastName: "Greenvsky",
         height: "187",
         weight: "82",
         games: [],
