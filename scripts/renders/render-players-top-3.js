@@ -138,7 +138,7 @@ function top3Rebounds(section, playersList, gamesList) {
     const td1 = document.createElement("td");
     td1.textContent = `${myPlayer.lastName}`;
     const td2 = document.createElement("td");
-    td2.textContent = `${Math.ceil(playerIdReboundsGamesList[i][1])}`;
+    td2.textContent = `${playerIdReboundsGamesList[i][1]}`;
 
     tr.append(td1, td2);
     topReboundsTable.append(tr);
