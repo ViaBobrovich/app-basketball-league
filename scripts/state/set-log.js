@@ -17,7 +17,7 @@ export default function setLog([
         playerId: selectPlayerId,
         action: selectAction,
         location: selectLocation,
-        time: 180,
+        time: selectTime,
         playerExtra: null,
     });
 
