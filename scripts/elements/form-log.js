@@ -37,10 +37,10 @@ export default function formLog(gameId) {
 
     const selectTime = document.createElement("select");
     selectTime.name = "time";
-    for (let i = 0; i < 600; i++) {
+    for (let i = 1; i <= 600; i++) {
         const option = document.createElement("option");
-        let time = i + 1;
-        option.textContent = formatTime(time);
+        option.value = i;
+        option.textContent = formatTime(i);
         selectTime.append(option);
     }
 
